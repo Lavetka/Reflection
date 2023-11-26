@@ -4,19 +4,17 @@
     public class ConfigurationItemAttribute : Attribute
     {
         public string SettingName { get; }
-        public Type ProviderType { get; }
 
-        public ConfigurationItemAttribute(string settingName, Type providerType)
+        public ConfigurationItemAttribute(string settingName)
         {
             SettingName = settingName;
-            ProviderType = providerType;
         }
     }
 
     public class FileConfigurationItemAttribute : ConfigurationItemAttribute
     {
         public FileConfigurationItemAttribute(string settingName)
-            : base(settingName, typeof(FileConfigurationProvider))
+            : base(settingName)
         {
         }
     }
@@ -24,7 +22,7 @@
     public class ConfigurationManagerConfigurationItemAttribute : ConfigurationItemAttribute
     {
         public ConfigurationManagerConfigurationItemAttribute(string settingName)
-            : base(settingName, typeof(ConfigurationManagerConfigurationProvider))
+            : base(settingName)
         {
         }
     }

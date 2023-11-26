@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ovFCjwQXi5eenzOqeibNEtR9GUOAMIiVJSe5wAHIfXRWvXK4aOC97zwg4jGO/tEsxOQeB+Chk7YIMwNs0IwJrQ==",
+  "success": true,
+  "projectFilePath": "/Users/lavetos/Projects/NETMentoring/Reflection/ConfigurationManagerConfigurationProvider/ConfigurationManagerConfigurationProvider.csproj",
+  "expectedPackageFiles": [
+    "/Users/lavetos/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/Users/lavetos/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/lavetos/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/lavetos/.nuget/packages/system.configuration.configurationmanager/8.0.0/system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "/Users/lavetos/.nuget/packages/system.diagnostics.eventlog/8.0.0/system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "/Users/lavetos/.nuget/packages/system.security.cryptography.protecteddata/8.0.0/system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

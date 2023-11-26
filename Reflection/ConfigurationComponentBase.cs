@@ -1,4 +1,6 @@
-﻿namespace Reflection
+﻿using SharedNamespace;
+
+namespace Reflection
 {
     public class ConfigurationComponentBase
     {

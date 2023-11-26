@@ -1,11 +1,12 @@
-﻿using System;
-using System.Configuration;
+﻿using System.Configuration;
+using SharedNamespace;
 
 
-namespace Reflection
+namespace ConfigurationManagerConfigurationProvider
 {
     public class ConfigurationManagerConfigurationProvider : IConfigurationProvider
     {
+
         public string LoadSettings(string settingName)
         {
             // Implementation for reading setting from ConfigurationManager
@@ -22,4 +23,3 @@ namespace Reflection
         }
     }
 }
-

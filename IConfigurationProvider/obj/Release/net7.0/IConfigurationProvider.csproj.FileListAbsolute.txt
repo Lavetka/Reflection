@@ -1,0 +1,12 @@
+/Users/lavetos/Projects/NETMentoring/Reflection/IConfigurationProvider/bin/Release/net7.0/IConfigurationProvider.deps.json
+/Users/lavetos/Projects/NETMentoring/Reflection/IConfigurationProvider/bin/Release/net7.0/IConfigurationProvider.dll
+/Users/lavetos/Projects/NETMentoring/Reflection/IConfigurationProvider/bin/Release/net7.0/IConfigurationProvider.pdb
+/Users/lavetos/Projects/NETMentoring/Reflection/IConfigurationProvider/obj/Release/net7.0/IConfigurationProvider.csproj.AssemblyReference.cache
+/Users/lavetos/Projects/NETMentoring/Reflection/IConfigurationProvider/obj/Release/net7.0/IConfigurationProvider.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lavetos/Projects/NETMentoring/Reflection/IConfigurationProvider/obj/Release/net7.0/IConfigurationProvider.AssemblyInfoInputs.cache
+/Users/lavetos/Projects/NETMentoring/Reflection/IConfigurationProvider/obj/Release/net7.0/IConfigurationProvider.AssemblyInfo.cs
+/Users/lavetos/Projects/NETMentoring/Reflection/IConfigurationProvider/obj/Release/net7.0/IConfigurationProvider.csproj.CoreCompileInputs.cache
+/Users/lavetos/Projects/NETMentoring/Reflection/IConfigurationProvider/obj/Release/net7.0/IConfigurationProvider.dll
+/Users/lavetos/Projects/NETMentoring/Reflection/IConfigurationProvider/obj/Release/net7.0/refint/IConfigurationProvider.dll
+/Users/lavetos/Projects/NETMentoring/Reflection/IConfigurationProvider/obj/Release/net7.0/IConfigurationProvider.pdb
+/Users/lavetos/Projects/NETMentoring/Reflection/IConfigurationProvider/obj/Release/net7.0/ref/IConfigurationProvider.dll

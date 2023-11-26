@@ -1,0 +1,15 @@
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/bin/Debug/net7.0/FileConfigurationProvider.deps.json
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/bin/Debug/net7.0/FileConfigurationProvider.dll
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/bin/Debug/net7.0/FileConfigurationProvider.pdb
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/bin/Debug/net7.0/IConfigurationProvider.dll
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/bin/Debug/net7.0/IConfigurationProvider.pdb
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/obj/Debug/net7.0/FileConfigurationProvider.csproj.AssemblyReference.cache
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/obj/Debug/net7.0/FileConfigurationProvider.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/obj/Debug/net7.0/FileConfigurationProvider.AssemblyInfoInputs.cache
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/obj/Debug/net7.0/FileConfigurationProvider.AssemblyInfo.cs
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/obj/Debug/net7.0/FileConfigurationProvider.csproj.CoreCompileInputs.cache
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/obj/Debug/net7.0/FileConfigurationProvider.csproj.CopyComplete
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/obj/Debug/net7.0/FileConfigurationProvider.dll
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/obj/Debug/net7.0/refint/FileConfigurationProvider.dll
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/obj/Debug/net7.0/FileConfigurationProvider.pdb
+/Users/lavetos/Projects/NETMentoring/Reflection/FileConfigurationProvider/obj/Debug/net7.0/ref/FileConfigurationProvider.dll
