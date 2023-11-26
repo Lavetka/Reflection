@@ -1,4 +1,4 @@
-﻿/*using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using SharedNamespace;
 
 namespace FileConfigurationProvider;
@@ -42,5 +42,3 @@ public class FileConfigurationProvider : IConfigurationProvider
         File.WriteAllText(filePath, JsonConvert.SerializeObject(settings));
     }
 }
-
-*/
