@@ -1,21 +1,25 @@
-﻿using SharedNamespace;
+﻿using ConfigurationManagerConfigurationProvider;
+using FileConfigurationProvider;
 
 namespace Reflection
 {
-    public class MyAppConfiguration : ConfigurationComponentBase
+    public class MyAppConfiguration : Reflection.ConfigurationComponentBase
     {
-        public MyAppConfiguration(IConfigurationProvider configurationProvider) : base(configurationProvider)
-        {
-        }
-
-        [ConfigurationItem("UserName")]
+        [ConfigurationManagerConfigurationItem("UserName")]
         public string UserName { get; set; }
 
-        [ConfigurationItem("TimeoutSeconds")]
+        [ConfigurationManagerConfigurationItem("TimeoutSeconds")]
         public int TimeoutSeconds { get; set; }
 
-        [ConfigurationItem("ApiKey")]
+        [ConfigurationManagerConfigurationItem("ApiKey")]
         public string ApiKey { get; set; }
+
+        [FileConfigurationItem("StartDate")]
+        public DateTime StartDate { get; set; }
+
+        public MyAppConfiguration(SharedNamespace.IConfigurationProvider configurationProvider)
+            : base(configurationProvider)
+        {
+        }
     }
 }
-
