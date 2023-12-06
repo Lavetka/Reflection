@@ -10,7 +10,7 @@ class Program
         string pluginsDirectory = "/Users/lavetos/Projects/NETMentoring/Reflection/Reflection/bin/Debug/net7.0";
 
         // Load and instantiate FileConfigurationProvider from DLL
-        
+        string filePath = "config.json";
         var fileConfigurationProvider = LoadProvider<IConfigurationProvider>("FileConfigurationProvider.dll", pluginsDirectory, new object[] { filePath });
 
         // Load and instantiate ConfigurationManagerConfigurationProvider from DLL
