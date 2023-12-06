@@ -1,5 +1,4 @@
-﻿using ConfigurationManagerConfigurationProvider;
-using FileConfigurationProvider;
+﻿using SharedNamespace;
 
 namespace Reflection
 {
@@ -7,19 +6,19 @@ namespace Reflection
     public class ConfigurationItemAttribute : Attribute
     {
         public string SettingName { get; }
-        public Type ProviderType { get; }
+        public IConfigurationProvider ConfigProvider { get; protected init; }
 
-        public ConfigurationItemAttribute(string settingName, Type providerType)
+        public ConfigurationItemAttribute(string settingName, IConfigurationProvider configProvider)
         {
             SettingName = settingName;
-            ProviderType = providerType;
+            ConfigProvider = configProvider;
         }
     }
 
     public class FileConfigurationItemAttribute : ConfigurationItemAttribute
     {
-        public FileConfigurationItemAttribute(string settingName)
-            : base(settingName, typeof(FileConfigurationProvider.FileConfigurationProvider))
+        public FileConfigurationItemAttribute(string settingName, string path)
+            : base(settingName, new FileConfigurationProvider.FileConfigurationProvider(path))
         {
         }
     }
@@ -27,7 +26,7 @@ namespace Reflection
     public class ConfigurationManagerConfigurationItemAttribute : ConfigurationItemAttribute
     {
         public ConfigurationManagerConfigurationItemAttribute(string settingName)
-            : base(settingName, typeof(ConfigurationManagerConfigurationProvider.ConfigurationManagerConfigurationProvider))
+            : base(settingName, new ConfigurationManagerConfigurationProvider.ConfigurationManagerConfigurationProvider())
         {
         }
     }

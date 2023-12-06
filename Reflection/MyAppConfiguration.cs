@@ -14,12 +14,7 @@ namespace Reflection
         [ConfigurationManagerConfigurationItem("ApiKey")]
         public string ApiKey { get; set; }
 
-        [FileConfigurationItem("StartDate")]
+        [FileConfigurationItem("StartDate", "config.json")]
         public DateTime StartDate { get; set; }
-
-        public MyAppConfiguration(SharedNamespace.IConfigurationProvider configurationProvider)
-            : base(configurationProvider)
-        {
-        }
     }
 }

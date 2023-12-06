@@ -4,13 +4,6 @@ namespace Reflection
 {
     public class ConfigurationComponentBase
     {
-        protected IConfigurationProvider configurationProvider;
-
-        public ConfigurationComponentBase(IConfigurationProvider configurationProvider)
-        {
-            this.configurationProvider = configurationProvider;
-        }
-
         public void LoadSettings()
         {
             foreach (var property in this.GetType().GetProperties())
@@ -19,7 +12,7 @@ namespace Reflection
 
                 if (attribute != null)
                 {
-                    var value = configurationProvider.LoadSettings(attribute.SettingName);
+                    var value = attribute.ConfigProvider.LoadSettings(attribute.SettingName);
                     if (value != null)
                     {
                         Type propertyType = property.PropertyType;
@@ -38,10 +31,11 @@ namespace Reflection
                 if (attribute != null)
                 {
                     var value = property.GetValue(this)?.ToString();
-                    configurationProvider.SaveSettings(attribute.SettingName, value);
+                    attribute.ConfigProvider.SaveSettings(attribute.SettingName, value);
                 }
             }
         }
     }
+
 }
 

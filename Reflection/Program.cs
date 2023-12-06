@@ -10,14 +10,14 @@ class Program
         string pluginsDirectory = "/Users/lavetos/Projects/NETMentoring/Reflection/Reflection/bin/Debug/net7.0";
 
         // Load and instantiate FileConfigurationProvider from DLL
-        string filePath = "config.json";
+        
         var fileConfigurationProvider = LoadProvider<IConfigurationProvider>("FileConfigurationProvider.dll", pluginsDirectory, new object[] { filePath });
 
         // Load and instantiate ConfigurationManagerConfigurationProvider from DLL
         IConfigurationProvider configManagerConfigurationProvider = LoadProvider<IConfigurationProvider>("ConfigurationManagerConfigurationProvider.dll", pluginsDirectory);
 
         // Example with FileConfigurationProvider
-        var appConfigFile = new MyAppConfiguration(fileConfigurationProvider);
+        var appConfigFile = new MyAppConfiguration();
         appConfigFile.LoadSettings();
 
         Console.WriteLine($"UserName: {appConfigFile.UserName}");
@@ -31,7 +31,7 @@ class Program
         Console.WriteLine($"ApiKey: {appConfigFile.ApiKey}");
 
         // Example with ConfigurationManagerConfigurationProvider
-        var appConfigManager = new MyAppConfiguration(configManagerConfigurationProvider);
+        var appConfigManager = new MyAppConfiguration();
         appConfigManager.LoadSettings();
 
         Console.WriteLine($"TimeoutSeconds: {appConfigManager.TimeoutSeconds}");
